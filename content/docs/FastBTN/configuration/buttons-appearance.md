@@ -6,7 +6,19 @@ weight: 2
 ---
 
 ## Button Text
-You can change the text every button in *FastBTN* to suit your needs. Just change the *Button Text* property on each button.
+Every button in FastBTN has a *Button Text* property than can be changed to suit your needs. You can also use emojis.
+![](/images/button-appearance-00.png "using emojis")
+
+Notes on emojis:
+- For more compatibility, we recommend using **Segoe UI Emoji** as the *font family*. It is coma pre-installed with Windows.
+- Emojis will be shown in monochrome (black and white).
+
+{{< callout type="info" >}}
+  **Tip**\
+  To show the current pair in the button text, use four dollar signs ($$$$). For example, if on XAU/USD you enter ***Close $$$$ Profit***, it will display as ***Close XAUUSD Profit***.
+
+  This is useful when you save *FastBTN* settings and load them on another pair—it will automatically show that pair's symbol, so you don't have to enter the symbol manually for each pair.
+{{< /callout >}}
 
 ---
 
