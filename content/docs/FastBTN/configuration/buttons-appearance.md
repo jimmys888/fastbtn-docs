@@ -10,7 +10,7 @@ Every button in FastBTN has a *Button Text* property than can be changed to suit
 ![](/images/button-appearance-00.png "using emojis")
 
 Notes on emojis:
-- For more compatibility, we recommend using **Segoe UI Emoji** as the *font family*. It is coma pre-installed with Windows.
+- For more compatibility, we recommend using **Segoe UI Emoji** as the *font family*. It is pre-installed with Windows.
 - Emojis will be shown in monochrome (black and white).
 
 {{< callout type="info" >}}

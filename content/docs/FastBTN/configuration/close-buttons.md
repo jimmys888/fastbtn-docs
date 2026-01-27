@@ -5,10 +5,7 @@ title: 'Close Buttons'
 weight: 4
 ---
 
-FastBTN provides several **Close buttons** that allow you to close matching positions at market price quickly. These buttons are designed to help you manage open trades without navigating MetaTrader’s default order windows.
-
-Because closing trades affects your account immediately, it is important to understand how each Close button works before using it.
-
+FastBTN provides several **Close buttons** that allow you to close matching positions at market price quickly. Because closing trades affects your account immediately, it is important to understand how each Close button works before using it.
 
 {{< callout type="error" >}}
   **Warning**\
@@ -119,19 +116,3 @@ For each button, you can:\
 
 ### Shortcut Key
 You can set a shortcut key for each button. Disabling a button will also disable its shortcut key. Leave blank if you don't want to use it. Please read more about [shortcut keys](/docs/shortcut-keys.md).
-
----
-
-## Close Buy Positions Only / Sell Positions Only
-In addition to the 6 close buttons above, there are 4 buttons to close Buy or Sell positions only:
-1. Close all **Buy** positions on **current pair**.
-2. Close all **Sell** positions on **current pair**.
-3. Close all **Buy** positions on **all pairs**.
-4. Close all **Sell** positions on **all pairs**.
-
-Each of these buttons can be disabled according to your needs, for example if you only trade in one direction. Disabled button will not be shown on the chart.
-![](/images/close-buttons-buy-sell-01.png "All 4 buttons enabled")
-\
-![](/images/close-buttons-buy-sell-02.png "Close All Buy Positions on Current Pair disabled, the other 3 buttons enabled")
-
-These 4 buttons don't have shortcut keys.

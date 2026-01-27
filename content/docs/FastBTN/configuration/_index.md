@@ -10,25 +10,15 @@ cascade:
 
 This section explains how to configure **FastBTN** in detail.
 
-FastBTN offers many features that can be enabled, disabled, or adjusted through its input parameters. The pages in this section describe each configuration option clearly, so you can customize the EA to match your trading style and workflow.
-
-If you are new to FastBTN:
-- Start with the default settings
-- Read the pages related to the features you plan to use
-
-If you are an experienced user:
-- Use this section as a reference
-- Fine-tune individual settings
-- Combine features to create your preferred workflow
+FastBTN offers many features that can be enabled, disabled, or adjusted through its input parameters. The configuration section describes each configuration option, so you can customize the EA to match your trading style and workflow.
 
 ---
 
 ## Important Notes
-
 - All configuration is done through the **FastBTN input settings**
 - Changes take effect immediately after clicking **OK**
-- It is recommended to test new settings on a **demo account**
-- Save your settings once you find a configuration you like
+- It is highly recommended to test it out on a **demo account** first before using it on a live account.
+- Due to its high amount of options, you should save your settings once you find a configuration you like so you can reuse it later and also use it on other pairs.
 
 ---
 

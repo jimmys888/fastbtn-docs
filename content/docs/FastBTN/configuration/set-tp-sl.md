@@ -2,7 +2,7 @@
 date: '2025-12-27T04:47:32Z'
 draft: true
 title: 'Set TP / SL to Open Positions'
-weight: 10
+weight: 11
 ---
 
 
@@ -21,7 +21,7 @@ By enabling this option, these buttons will appear on your chart below the close
 <br>
 
 ### TP & SL Color
-The *TP Color* and *SL Color* options are not for the buttons, but for the captions and text boxes. So if you set *TP Color* to `Orange` and *SL Color* to `Purple`, it will show like this:
+The *TP Color* and *SL Color* options are not for the buttons, but for the captions and text boxes. So if you set *TP Color* to `Orange` and *SL Color* to `Purple`, it will show something like this:
 ![](/images/set-tpsl-03.png)
 You can change the buttons' color on their color properties. Please refer to [Button Appearance](/docs/buttons-appearance.md).
 

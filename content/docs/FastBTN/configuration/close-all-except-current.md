@@ -1,7 +1,7 @@
 ---
 draft: true
 title: 'Close All Pairs Except Current Pair'
-weight: 9
+weight: 10
 ---
 
 ## Overview

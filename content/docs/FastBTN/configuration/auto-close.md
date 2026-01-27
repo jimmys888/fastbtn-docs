@@ -2,18 +2,15 @@
 date: '2025-12-27T04:47:09Z'
 draft: true
 title: 'Auto Close When Target Reached'
-weight: 7
+weight: 8
 ---
 
 ## Overview
 {{< callout type="warning" >}}
-Auto Close features depend on MetaTrader 5 running continuously.  
-Any missed execution due to platform downtime is the user’s responsibility.
+Auto Close features depend on MetaTrader 5 running continuously. Any missed execution due to platform downtime is the user’s responsibility.
 {{< /callout >}}
 
-Auto Close works in the background while FastBTN is running. This feature will close all positions on the current pair or on all pairs when the total profit target you set is reached. 
-
-Auto Close helps you manage risk and lock in profits without needing to monitor the chart constantly. When enabled, FastBTN continuously checks your open positions.
+Auto Close works in the background while FastBTN is running. This feature will close all positions on the current pair or on all pairs when the total profit target you set is reached. It helps to gain profits without you needing to monitor the chart constantly. When enabled, FastBTN continuously checks your open positions.
 
 Please consider your positions' Take Profit (TP) when using this feature, as the TP may not be reached. For example, if you have 5 open positions on XAU/USD, each with a TP of $10, and you use the *Auto Close When Target Reached* feature and set the *Target Profit* for the current pair to $100, then the $100 will never be reached because your positions' TP will limit your total profit to $50.
 
@@ -34,23 +31,15 @@ Depending on the server and internet speed, there will be delays between closing
 
 ---
 
-## Important Requirement: MT5 Must Be Running
-
-Auto Close works **only while MetaTrader 5 is open and running**.
-
-This means:
+## Requirement
+Auto Close works **only while MetaTrader 5 is open and running**. This means:
 - MT5 must remain open
 - FastBTN must stay attached to the chart
 - AutoTrading must remain enabled
 
-If MetaTrader 5 is closed, minimized incorrectly, or your computer is turned off, **Auto Close will not function**.
-
-If you cannot keep your computer running at all times, it is strongly recommended to use a **VPS (Virtual Private Server)**.
-
-A VPS allows:
+If MetaTrader 5 is closed, minimized incorrectly, or your computer is turned off, **Auto Close will not function**. If you cannot keep your computer running at all times, you can use a **Virtual Private Server (VPS)** that allows:
 - MetaTrader 5 to run 24/7
 - Auto Close to work continuously
-- Reduced risk of missed trade management due to power or internet issues
 
 ---
 

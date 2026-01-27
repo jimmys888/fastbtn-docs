@@ -2,7 +2,7 @@
 date: '2025-12-27T04:46:41Z'
 draft: true
 title: 'Check Before Open Position'
-weight: 5
+weight: 6
 ---
 
 FastBTN includes **Check Before Open Position** features that help prevent unwanted or risky trades from being opened. These checks act as safety filters and are evaluated **before** any Buy or Sell action is executed.
@@ -43,10 +43,10 @@ Then:
   - You currently have a total of 19 open positions on all pairs, so you still have **1 remaining**.
   - Your current total lots on all pairs is 2.6, so you still have 2.4 lots remaining.
 
-You get the idea. Of course, you can use different settings for each pair, but it's advised to use the same settings for all pairs for consistency.
+You get the idea. Of course, you can use different settings for each pair, but it's advised to use the same settings on all pairs for consistency.
 
 This is useful to help you avoid opening unnecessary positions, especially when you're emotional. I often open more *averaging* positions when I'm losing. With this feature enabled, when the warning appears, it means that if I still want to open a new position:
 - I have to change my settings first, or
-- I have to use MT5's internal Buy/Sell function
+- I have to use MT5's default interface
 
 I find these to be cumbersome. Then I usually come to my senses and cancel opening any more positions. It won't prevent you 100%, but it helps.

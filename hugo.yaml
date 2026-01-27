@@ -1,11 +1,21 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: FastBTN
+title: FastIdeas
 theme: hextra
 markup:
   goldmark:
     renderer:
       unsafe: true
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: logo.png
+      dark: logo-dark.png
+      link: /docs/
+      width: 50
+      height: 20     
 
 menu:
   main:

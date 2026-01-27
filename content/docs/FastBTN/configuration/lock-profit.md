@@ -2,16 +2,17 @@
 date: '2025-12-27T04:47:15Z'
 draft: true
 title: 'Lock Profit / Hedging'
-weight: 8
+weight: 9
 ---
 
 ## Overview
 **Lock Profit / Hedging** can protect accumulated profits by opening a hedge position. It helps prevent profitable trades from turning into losses during sudden market reversals.
 
-Lock Profit / Hedging – Important Note:
-- This feature works only when all open positions on the current symbol are in one direction.
-- If you have both Buy and Sell positions open at the same time on the same pair, the Lock Profit / Hedging feature will not be activated.
-- To use this feature correctly, your open positions on the current pair must be Buy positions only or Sell positions only. Mixed Buy and Sell positions are not supported.
+{{< callout type="info" >}}
+**Important**\
+This feature works only when all open positions on the current pair are in one direction. If you have both Buy and Sell positions open at the same time on the same pair, the this feature will not work. Mixed Buy and Sell positions are not supported.
+{{< /callout >}}
+
 
 With Lock Profit, *FastBTN* will immideately open a counter position (opposite direction) with the lot size of the total volume of the already opened position. For example, you have 5 profitable Buy positions on XAU/USD with a total volume of 1 lot. When you click the Lock Profit button, *FastBTN* will open a 1 lot Sell position.
 
@@ -32,7 +33,9 @@ Usually you'll want to only lock your profit. But if you allow it, FastBTN will 
 ---
 
 ## Remove All TP & SL
-Set it to `true` to remove all TP and SL from current pair. When you lock a profit, you may not want the locked positions to hit TP or SL. If you have 5 profitable Buy XAU/USD positions with a total of 1 lot and profit of $1,000 and you lock it, when each of those position hits its TP, you'll be left with a 1 lot of a losing Sell position. You'll lose more and more if the price goes up.
+Set it to `true` to remove all TP and SL from current pair. When you lock a profit, you may not want the locked positions to hit TP or SL.
+
+For example, if you have 5 profitable Buy XAU/USD positions with a total of 1 lot and profit of $1,000 and you lock it, FastBTN will open a 1 lot Sell position. When each of those Buy positions hits its TP, you'll be left with a 1 lot of a losing Sell position. You'll lose more and more if the price goes up.
 
 ---
 

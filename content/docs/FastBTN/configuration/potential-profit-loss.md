@@ -2,11 +2,11 @@
 date: '2025-12-27T04:48:06Z'
 draft: true
 title: 'Potential Profit & Loss'
-weight: 11
-next: /docs/shortcut-keys.md
+weight: 12
+next: /docs/fastbtn/shortcut-keys.md
 ---
 
-When you have TP & SL set, you may want to see the potential TP and potential SL you may get:
+When you have TP & SL set, you may want to see the potential TP and SL you may get:
 - Potential TP: the amount of money you'll get if all positions that have TP hit the TP
 - Potential SL: the amount of money you'll lose if all positions that have SL hit the SL
 ![](/images/potential-01.png)

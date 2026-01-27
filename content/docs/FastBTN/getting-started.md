@@ -3,7 +3,7 @@ date: '2025-12-27T04:35:26Z'
 draft: true
 title: 'Getting Started'
 weight: 3
-next: "/docs/configuration/general.md"
+next: "/docs/fastbtn/configuration/"
 ---
 
 ## Installation
@@ -98,18 +98,13 @@ If something does not work as expected, checking the logs is a good first step.
 
 ---
 
-## Recommended First Setup
+## Important Note
+Before using FastBTN or FastSTAT on a live account, please make sure you:
+- Understand how all features work
+- Test everything on a **demo account**
+- Read and accept the [Disclaimer](/docs/disclaimer/)
 
-For best results when starting out:
-
-- Test FastBTN on a **demo account**
-- Use default settings first
-- Enable features gradually as you become familiar with them
-- Save your settings once you find a setup you like
-
-You can later reuse your preferred setup using saved settings and chart templates.
-
----
+You are fully responsible for all trading activity.
 
 {{< callout type="info" >}}
 **Tip**  
@@ -118,16 +113,4 @@ If you place the FastBTN buttons on the right side of the chart and they overlap
 See: [Shift Chart from the Right Border](/docs/fastbtn/shift-chart.md)
 
 ![](/images/shift-01.png)
-{{< /callout >}}
-
-
-{{< callout type="info" >}}
-**Important Notice**  
-Before using FastBTN or FastSTAT on a live account, please make sure you:
-
-- Understand how all features work
-- Test everything on a demo account
-- Read and accept the [Disclaimer](/docs/disclaimer/)
-
-You are fully responsible for all trading activity.
 {{< /callout >}}

@@ -3,7 +3,7 @@ date: '2025-12-27T04:41:15Z'
 draft: true
 title: 'General'
 weight: 1
-prev: /docs/getting_started.md
+prev: /docs/fastbtn/configuration
 ---
 
 ## Magic Number
@@ -59,7 +59,7 @@ If you enable this option, a tooltip will appear when you hover over a button. T
 <br>
 
 ### Enable Shortcut Keys
-Set this to `true` if you want to use keyboard shortcuts for faster execution. Please read more about shortcut keys [here](/docs/shortcut-keys.md).
+Set this to `true` if you want to use keyboard shortcuts for faster execution. Please read more about shortcut keys [here](/docs/fastbtn/shortcut-keys.md).
 
 <br>
 
@@ -76,14 +76,14 @@ If enabled, this will override the individual button settings.
 <br>
 
 ### Use same text color for all buttons
-If set to `true`, all buttons will have the same text color—the color you choose in the *Text color for all buttons* option.
+If set to `true`, all buttons will have the same text color: the color you choose in the *Text color for all buttons* option.
 
 Each button's individual text color setting will be overridden.
 
 <br>
 
 ### Use same font for all buttons
-If set to `true`, all buttons will have the same font family—the font family you enter in the *Font family for all buttons* option. Make sure the font family is already installed on your computer.
+If set to `true`, all buttons will have the same font family: the font family you enter in the *Font family for all buttons* option. Make sure the font family is already installed on your computer.
 
 Each button's individual font family setting will be overridden.
 

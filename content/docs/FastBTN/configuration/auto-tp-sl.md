@@ -2,7 +2,7 @@
 date: '2025-12-27T04:46:55Z'
 draft: true
 title: 'Auto TP & SL'
-weight: 6
+weight: 7
 ---
 
 When you open a Buy/Sell position on MetaTrader, you have to enter the Take Profit (TP) and Stop Loss (SL) price manually. With FastBTN, you can do this automatically, saving you a significant amount of time.
@@ -28,21 +28,33 @@ The default value is `true`.
 <br>
 
 ### Value: True
-When you set this option to `true`, then TP & SL prices will be automatically set **only** if you open positions using FastBTN's Buy & Sell buttons. Other trades opened by other means will be left alone.
+When you set this option to `true`, then TP & SL prices will be applied **exclusively** to positions opened using FastBTN's Buy & Sell buttons.
+
+**Note**: Any positions opened manually, by other EAs, or prior to activating this setting will remain unaffected.
 
 <br>
 
 ### Value: False
-But if you set this option to `false`, then FastBTN will set TP & SL prices on every open position for current pair, whether you open them using FastBTN or other means. This also affects already opened positions if they don't already have TP & SL. FastBTN will not modify any existing TP & SL.
+But if you set this option to `false`, FastBTN will apply TP & SL prices to:
+1. All future positions for the current pair, regardless of whether they are opened via FastBTN or any other means.
+2. All existing positions for the current pair (including those opened via other means) that do not currently have a TP & SL.
 
+**Note**: FastBTN will not modify or overwrite any existing TP & SL.
+
+---
+
+### Example
 So if you:
 1. Set this option to `true`
 2. Enable Auto TP and Auto SL to `true`
-3. Open 3 Buy positions using MT5's quick trading buttons (NOT FastBTN), without setting TP & SL
+3. Open 3 Buy positions using MT5's quick trading buttons (**NOT** FastBTN), without applying TP & SL
 4. Switch this option to `false`
 
-Then FastBTN will set TP & SL to those 3 Buy positions you just opened.
+Then FastBTN will apply TP & SL to those 3 Buy positions you just opened.
 
+---
+
+### Important
 {{< callout type="warning" >}}
   **Important**\
   When you set this option to `false`, even if you remove TP & SL on current pair, **FastBTN will check that they don't have TP & SL, and then set TP & SL again to them**.
@@ -63,7 +75,7 @@ For both Auto TP Mode and Auto SL Mode, you can choose for each, whether to set 
 
 <br>
 
-#### By Money Amount
+#### 1. By Money Amount
 The easiest option is choosing *By Money Amount* where FastBTN will automatically calculate the price to get to the TP / SL amount you set.
 
 For example, if current BTC/USD price is 90222.75 and you set:
@@ -84,7 +96,7 @@ Then if you Buy BTC/USD:
 
 <br>
 
-#### By Point
+#### 2. By Point
 If you choose to set Auto TP & SL by point, then the lot size doesn't matter.
 
 For example, if current BTC/USD price is 90202.75 and you set:
