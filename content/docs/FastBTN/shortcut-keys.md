@@ -55,34 +55,34 @@ If a shortcut does not work as expected, check the FastBTN input settings or you
 
 ## Default Shortcuts
 
-There are currently 25 shortcut keys available, from A to Z. Since there are more than 26 buttons, not all buttons can have a shortcut key.
+There are currently 26 shortcut keys available, from A to Z. Since there are more than 26 buttons, not all buttons can have a shortcut key.
 
 Here's the list of default keys:
-| **Key** |                           **Function**                            |
-| :-----: | :---------------------------------------------------------------: |
-|  **A**  |                           Sell Button 1                           |
-|  **B**  |                 Close all positions on all pairs                  |
-|  **C**  |                       Lock profit / hedging                       |
-|  **D**  |                           Sell Button 3                           |
-|  **E**  |                           Buy Button 3                            |
-|  **F**  |               Close loss positions on current pair                |
-|  **G**  |                 Close loss positions on all pairs                 |
-|  **H**  |             Set TP/SL to current pair based on price              |
-|  **I**  |               Delete all TP & SL from current pair                |
-|  **J**  |             Set TP/SL to current pair based on points             |
-|  **K**  |          Set TP/SL to current pair based on money amount          |
-|  **L**  |      Delete all TP & SL from all open positions on all pairs      |
-|  **M**  | Set TP/SL to all open positions (all pairs) based on money amount |
-|  **N**  |                                n/a                                |
-|  **O**  |        Delete all TP from all open positions on all pairs         |
-|  **P**  |        Delete all SL from all open positions on all pairs         |
-|  **Q**  |                           Buy Button 1                            |
-|  **R**  |              Close profit positions on current pair               |
-|  **S**  |                           Sell Button 2                           |
-|  **T**  |                Close profit positions on all pairs                |
-|  **U**  |                  Delete all SL from current pair                  |
-|  **V**  |                Close all positions on current pair                |
-|  **W**  |                           Buy Button 2                            |
-|  **X**  |                             Help Key                              |
-|  **Y**  |                  Delete all TP from current pair                  |
-|  **Z**  |            Toggle show / hide potential P/L from TP/SL            |
+| **Key** |                        **Function**                        |
+| :-----: | :--------------------------------------------------------: |
+|  **A**  |                       Sell Button 1                        |
+|  **B**  |              Close all positions on all pairs              |
+|  **C**  |                   Lock profit / hedging                    |
+|  **D**  |                       Sell Button 3                        |
+|  **E**  |                        Buy Button 3                        |
+|  **F**  |            Close loss positions on current pair            |
+|  **G**  |             Close loss positions on all pairs              |
+|  **H**  |   Delete all TP from all open positions on current pair    |
+|  **I**  |          Close all buy positions on current pair           |
+|  **J**  |   Delete all SL from all open positions on current pair    |
+|  **K**  | Delete all TP & SL from all open positions on current pair |
+|  **L**  |  Delete all TP & SL from all open positions on all pairs   |
+|  **M**  |     Delete all SL from all open positions on all pairs     |
+|  **N**  |     Delete all TP from all open positions on all pairs     |
+|  **O**  |           Close all sell positions on all pairs            |
+|  **P**  |    Close all positions on all pairs except current pair    |
+|  **Q**  |                        Buy Button 1                        |
+|  **R**  |           Close profit positions on current pair           |
+|  **S**  |                       Sell Button 2                        |
+|  **T**  |            Close profit positions on all pairs             |
+|  **U**  |          Close all sell positions on current pair          |
+|  **V**  |            Close all positions on current pair             |
+|  **W**  |                        Buy Button 2                        |
+|  **X**  |                          Help Key                          |
+|  **Y**  |          Close all buy positions on current pair           |
+|  **Z**  |        Toggle show / hide potential P/L from TP/SL         |
