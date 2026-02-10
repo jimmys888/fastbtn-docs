@@ -59,14 +59,17 @@ If you enable this option, a tooltip will appear when you hover over a button. T
 <br>
 
 ### Enable Shortcut Keys
-Set this to `true` if you want to use keyboard shortcuts for faster execution. Please read more about shortcut keys [here](/docs/fastbtn/shortcut-keys.md).
+Set this to `true` if you want to use keyboard shortcuts for faster execution. Please read more about shortcut keys [here](/docs/fastbtn/configuration/shortcut-keys.md).
 
 <br>
 
-### Help Key
+### Enable Comments
+FastBTN uses comments to let you know which buttons or shortcut keys are pressed when you execute a trade. Set this to `true` to enable it. If you set it to `false`, the comments will default to blank. Please read more about shortcut keys [here](/docs/fastbtn/configuration/comments.md).
+
+<!-- ### Help Key
 The default help key is **X**. It will display a list of shortcuts.
 ![](/images/help-key.png)
-This works only if you have set *Enable Shortcut Keys* to `true`.
+This works only if you have set *Enable Shortcut Keys* to `true`. -->
 
 ---
 

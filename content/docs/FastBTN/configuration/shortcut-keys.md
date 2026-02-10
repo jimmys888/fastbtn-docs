@@ -2,9 +2,12 @@
 date: '2025-12-27T04:35:26Z'
 draft: true
 title: 'Shortcut Keys'
-weight: 4
-prev: /docs/configuration/potential-profit-loss.md
+weight: 13
 ---
+
+{{< callout type="info" >}}
+If a button is disabled, the shortcut key associated with that button will also be disabled.
+{{< /callout >}}
 
 FastBTN supports keyboard shortcuts to help you execute actions faster without relying only on mouse clicks. Using shortcuts can significantly improve your workflow, especially during active trading.
 
@@ -25,39 +28,31 @@ To adjust shortcut behavior:
 1. Press **F7** to open FastBTN properties.
 2. Go to the **Inputs** tab.
 3. Locate `Enable Shortcut Keys` at the top, under `General Button Settings`. Set it to `true` to enable it, `false` to disable it. Default is `false`.
+   ![](/images/shortcut-00.png)
 4. Click **OK** to apply the changes.
 
 If shortcuts are disabled, all actions must be performed using on-chart buttons.
 
 ---
 
-## When to Use Shortcuts
+## Configure Shortcuts
 
-Keyboard shortcuts are especially useful when:
+There are 26 shortcut keys available, from A to Z. Since there are more than 26 buttons, not all buttons can have a shortcut key.
 
-- You need to act quickly during fast market movements
-- You want to reduce mouse usage
-- You already know your preferred actions by muscle memory
+The shortcut configuration is located at the bottom of the properties window.
+![](/images/shortcut-01.png)
 
-However, if you are new to FastBTN, it is recommended to first become comfortable using the on-chart buttons before relying on shortcuts.
+Choose an action for each key:
+![](/images/shortcut-02.png)
 
----
+If you don't want to assign any shortcut to a key, choose `<None>` at the top of the list.
 
-## Important Notes
-
-- Shortcuts only work when the chart window is active
-- Shortcut keys may conflict with MT5 or system shortcuts
-- Always try this feature on a demo account first to verify their actions before using it on a live account
-
-If a shortcut does not work as expected, check the FastBTN input settings or your system key assignments.
+You can select the same action to some keys. For example you set Q and W to *Buy Button 1*. This means a button can have more than 1 shortcuts.
 
 ---
 
 ## Default Shortcuts
-
-There are currently 26 shortcut keys available, from A to Z. Since there are more than 26 buttons, not all buttons can have a shortcut key.
-
-Here's the list of default keys:
+Here's the list of default shortcut keys:
 | **Key** |                        **Function**                        |
 | :-----: | :--------------------------------------------------------: |
 |  **A**  |                       Sell Button 1                        |
@@ -86,3 +81,25 @@ Here's the list of default keys:
 |  **X**  |                          Help Key                          |
 |  **Y**  |          Close all buy positions on current pair           |
 |  **Z**  |        Toggle show / hide potential P/L from TP/SL         |
+
+---
+
+## When to Use Shortcuts
+
+Keyboard shortcuts are especially useful when:
+
+- You need to act quickly during fast market movements
+- You want to reduce mouse usage
+- You already know your preferred actions by muscle memory
+
+However, if you are new to FastBTN, it is recommended to first become comfortable using the on-chart buttons before relying on shortcuts.
+
+---
+
+## Important Notes
+
+- Shortcuts only work when the chart window is active
+- Shortcut keys may conflict with MT5 or system shortcuts
+- Always try this feature on a demo account first to verify their actions before using it on a live account
+
+If a shortcut does not work as expected, check the FastBTN input settings or your system key assignments.

@@ -49,6 +49,11 @@ Explore the following sections to learn how to use FastBTN:
   {{< card link="/docs/fastbtn/configuration/set-tp-sl" title="Set TP / SL to Open Positions" icon="cash" >}}
 {{< /cards >}}
 
-{{< cards cols="1" >}}
+{{< cards cols="2" >}}
   {{< card link="/docs/fastbtn/configuration/potential-profit-loss" title="Potential Profit & Loss" icon="view-list" >}}
+  {{< card link="/docs/fastbtn/configuration/shortcut-keys/" title="Shortcut Keys" icon="lightning-bolt" >}}
+{{< /cards >}}
+
+{{< cards cols="1" >}}
+  {{< card link="/docs/fastbtn/configuration/comments/" title="Comments" icon="annotation" >}}
 {{< /cards >}}

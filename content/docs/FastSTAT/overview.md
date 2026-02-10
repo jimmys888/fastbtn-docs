@@ -3,6 +3,7 @@ date: '2025-12-27T04:34:53Z'
 draft: true
 title: 'FastSTAT Overview'
 linkTitle: 'Overview'
+prev: /docs/fastbtn/
 weight: 1
 ---
 
@@ -71,8 +72,8 @@ While FastSTAT can be used on its own, it is most useful when used together with
 
 {{< callout type="warning" >}}
 **Trading involves risk.**  
-FastBTN is a trading tool, not a trading strategy.
+FastBTN and FastSTAT are trading tools, not trading strategy.
 
 You are fully responsible for all trading decisions and outcomes.  
-Always test FastBTN on a **demo account** before using it on a live account.
+Always test FastBTN and FastSTAT on a **demo account** before using it on a live account.
 {{< /callout >}}

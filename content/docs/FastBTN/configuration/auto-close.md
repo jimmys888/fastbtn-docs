@@ -72,8 +72,9 @@ This allows you to combine automation with full manual control.
 ---
 
 ## Important Notes
+Only Target Profit is supported, **Target Loss is not supported**.
+
 Because Auto Close can close trades automatically:
-- Only Target Profit is supported, **Target Loss is not supported**.
 - Make sure the target profit value is set correctly
 - Test Auto Close behavior on a demo account first
 

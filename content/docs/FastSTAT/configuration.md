@@ -4,6 +4,7 @@ draft: true
 title: 'FastSTAT Configuration'
 linkTitle: 'Configuration'
 weight: 3
+next: '/docs/save-reuse-settings'
 ---
 
 ## Configuration
@@ -103,7 +104,7 @@ Leave an item's *label* property **blank** if you don't want to use it.
 
 ### Change Color
 ![](/images/faststat-08.png)
-You can change each item's color except for items number 10 and 11 (see the screenshot above). Items 10 and 11 will use **[Neutral Color, Profit Color, and Loss Color](#neutral-color-profit-color-and-loss-color)**.
+You can change each item's color except for *Profit only and Loss only for all open positions* and *Total profit / loss for all open positions* (items number 10 and 11 in the screenshot above). They will use **[Neutral Color, Profit Color, and Loss Color](#neutral-color-profit-color-and-loss-color)**.
 
 If you set an item's `Use profit / loss color` property to `true`, then that item will also use **Neutral Color, Profit Color, and Loss Color**.
 
@@ -151,7 +152,7 @@ If the BEP Line appears in front of FastBTN like this:
 
 That means you loaded *FastStat* **after** *FastBTN*.
 
-Simply remove *FastBTN* from your chart and then reload it. The last indicator loaded will appear in front of previously loaded ones.
+Simply remove *FastBTN* from your chart and then reload it. The last loaded indicator / EA will appear in front of previously loaded ones.
 
 ---
 

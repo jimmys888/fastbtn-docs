@@ -2,6 +2,7 @@
 draft: true
 title: "Saving & Reusing Settings"
 weight: 7
+prev: /docs/faststat/configuration
 ---
 
 ## Overview

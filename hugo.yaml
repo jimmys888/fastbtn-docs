@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://fastideas.net/
 languageCode: en-us
 title: FastIdeas
 theme: hextra
@@ -19,15 +19,11 @@ params:
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
     - identifier: docs
       name: Docs
       url: /docs/
-      weight: 2
+      weight: 1
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 3
+      weight: 2

@@ -111,8 +111,3 @@ For each button, you can:\
 
   This is useful when you save *FastBTN* settings and load them on another pair—it will automatically show that pair's symbol, so you don't have to enter the symbol manually for each pair.
 {{< /callout >}}
-
-<br>
-
-### Shortcut Key
-You can set a shortcut key for each button. Disabling a button will also disable its shortcut key. Leave blank if you don't want to use it. Please read more about [shortcut keys](/docs/shortcut-keys.md).

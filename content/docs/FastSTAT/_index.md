@@ -5,6 +5,7 @@ title: 'FastSTAT'
 cascade:
   type: docs
 weight: 1
-redirect: overview
+layout: redirect
+redirect_to: /docs/faststat/overview/
 ---
 

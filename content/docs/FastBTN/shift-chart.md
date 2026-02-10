@@ -3,6 +3,8 @@ date: '2025-12-27T04:35:26Z'
 draft: true
 title: 'Shift Chart from the Right Border'
 weight: 5
+prev: /docs/fastbtn/configuration/comments.md
+next: /docs/faststat/
 ---
 
 ## Why Shift Chart?

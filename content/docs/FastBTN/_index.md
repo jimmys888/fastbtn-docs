@@ -27,9 +27,5 @@ This section explains about and how to configure FastBTN.
 
 {{< cards cols="2" >}}
   {{< card link="/docs/fastbtn/configuration/" title="Configuration" icon="adjustments" >}}
-  {{< card link="/docs/fastbtn/shortcut-keys/" title="Shortcut Keys" icon="lightning-bolt" >}}
-{{< /cards >}}
-
-{{< cards cols="2" >}}
   {{< card link="/docs/fastbtn/shift-chart" title="Shift Chart from the Right Border" icon="rewind" >}}
 {{< /cards >}}
