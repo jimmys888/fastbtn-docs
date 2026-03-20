@@ -4,3 +4,9 @@
 
 [build.environment]
   HUGO_VERSION = "0.153.3"
+
+[[redirects]]
+  from = "/"
+  to = "/docs"
+  status = 301
+  force = true
