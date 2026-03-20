@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:47:15Z'
-draft: true
 title: 'Lock Profit / Hedging'
 weight: 9
 ---

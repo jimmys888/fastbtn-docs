@@ -1,5 +1,4 @@
 ---
-draft: true
 title: 'Comments'
 weight: 14
 next: /docs/fastbtn/shift-chart.md

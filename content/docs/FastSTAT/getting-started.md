@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:35:26Z'
-draft: true
 title: 'FastSTAT: Getting Started'
 linkTitle: 'Getting Started'
 weight: 2

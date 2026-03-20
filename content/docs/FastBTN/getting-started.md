@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:35:26Z'
-draft: true
 title: 'Getting Started'
 weight: 3
 next: "/docs/fastbtn/configuration/"

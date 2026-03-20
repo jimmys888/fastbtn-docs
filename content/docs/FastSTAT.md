@@ -1,5 +1,4 @@
 ---
-draft: true
 title: 'FastSTAT'
 weight: 66
 ---

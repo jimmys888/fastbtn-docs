@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:46:55Z'
-draft: true
 title: 'Auto TP & SL'
 weight: 7
 ---

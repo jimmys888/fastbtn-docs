@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:47:32Z'
-draft: true
 title: 'Set TP / SL to Open Positions'
 weight: 11
 ---

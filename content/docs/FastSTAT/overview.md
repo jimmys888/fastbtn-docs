@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:34:53Z'
-draft: true
 title: 'FastSTAT Overview'
 linkTitle: 'Overview'
 prev: /docs/fastbtn/

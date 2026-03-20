@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:47:09Z'
-draft: true
 title: 'Auto Close When Target Reached'
 weight: 8
 ---

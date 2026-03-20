@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:48:06Z'
-draft: true
 title: 'Potential Profit & Loss'
 weight: 12
 next: /docs/fastbtn/shortcut-keys.md

@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:41:15Z'
-draft: true
 title: 'General'
 weight: 1
 prev: /docs/fastbtn/configuration

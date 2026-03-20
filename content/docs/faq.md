@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:34:53Z'
-draft: true
 title: 'FAQ'
 weight: 97
 ---

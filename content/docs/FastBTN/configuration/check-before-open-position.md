@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:46:41Z'
-draft: true
 title: 'Check Before Open Position'
 weight: 6
 ---

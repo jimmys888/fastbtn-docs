@@ -1,6 +1,5 @@
 ---
 date: '2025-12-27T04:45:55Z'
-draft: true
 title: 'Close Buy / Sell Positions Only'
 weight: 5
 ---
