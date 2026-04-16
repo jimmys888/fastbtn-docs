@@ -13,6 +13,11 @@ Instead of placing trades manually through MT5’s default interface, FastBTN pr
 - Buy / Sell
 - Closing positions
 - Managing lot size, TP, and SL
+- Locking your profit
+
+FastBTN also have some automation features such as:
+- Auto TP & SL when opening a position
+- Auto close when target profit reached
 
 FastBTN does **not** trade automatically.  
 You remain fully in control of **when** and **how** trades are opened and closed.
