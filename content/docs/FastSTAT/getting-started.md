@@ -5,11 +5,33 @@ linkTitle: 'Getting Started'
 weight: 2
 ---
 
-## Download
-Download the file here.
+## Get FastSTAT
+You can get FastSTAT for free from the MQL5 Market here: [https://www.mql5.com/en/market/product/173326](https://www.mql5.com/en/market/product/173326), or directly from MT5:
+
+{{% steps %}}
+
+### Log in to MQL5 Account
+Open MT5, go to `Tools` > `Options` > `Community`, and log in with your MQL5 credentials.
+
+### Open the Market
+Open the Navigator window (`Ctrl+N`), click the `Market` tab, and click `Indicators`.
+![](/images/faststat-install-01.jpg)
+
+### Locate FastSTAT
+Search for `faststat` using the search bar at the top. Click on it and then click download.
+![](/images/faststat-install-02.jpg)
+
+### Verify
+FastSTAT will automatically be placed in the `Navigator` panel under `Indicators` > `Market`.
+
+### Refresh
+If the FastSTAT does not appear, right-click on `Indicators` in the Navigator and select `Refresh`.
+
+{{% /steps %}}
 
 ---
 
+<!--
 ## Installation
 Follow these steps to install **FastSTAT** on MetaTrader 5:
 
@@ -32,7 +54,7 @@ Follow these steps to install **FastSTAT** on MetaTrader 5:
 
 You should now see **FastSTAT** listed under *Indicators*.
 
----
+-->
 
 ## Attaching FastSTAT to a Chart
 

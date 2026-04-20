@@ -5,6 +5,27 @@ weight: 3
 next: "/docs/fastbtn/configuration/"
 ---
 
+## Get FastBTN
+You can purchase FastBTN from the MQL5 Market here: [https://www.mql5.com/en/market/product/173304](https://www.mql5.com/en/market/product/173304), or directly from MT5:
+
+{{% steps %}}
+
+### Log in to MQL5 Account
+Open MT5, go to `Tools` > `Options` > `Community`, and log in with your MQL5 credentials.
+
+### Open the Market
+Open the Navigator window (`Ctrl+N`), click the `Market` tab, and click `Experts`.
+![](/images/fastbtn-install-01.jpg)
+
+### Locate FastBTN
+Search for `fastbtn` using the search bar at the top. Click on it and you can purchase it there.
+![](/images/fastbtn-install-02.jpg)
+
+{{% /steps %}}
+
+---
+
+<!--
 ## Installation
 
 {{% steps %}}
@@ -43,6 +64,29 @@ You should see ***FastBTN*** listed under *Expert Advisors*.
 ### Done
 You've successfully copied *FastBTN.ex5* to the correct location.
 {{% /steps %}}
+---
+-->
+
+## Installation
+
+{{% steps %}}
+
+### Log in to MQL5 Account
+Open MT5, go to `Tools` > `Options` > `Community`, and log in with your MQL5 credentials.
+
+### Locate FastBTN
+Open the Navigator window (`Ctrl+N`), click the `Market` tab, and click `Experts`.
+
+### Download and Install
+Find FastBTN and click `Install`.
+
+### Verify
+FastBTN will automatically be placed in the `Navigator` panel under `Expert Advisors` > `Market`.
+
+### Refresh
+If the FastBTN does not appear, right-click on `Expert Advisors` in the Navigator and select `Refresh`.
+{{% /steps %}}
+
 ---
 
 ## Enable Algo Trading
